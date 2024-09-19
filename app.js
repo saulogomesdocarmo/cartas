@@ -33,7 +33,7 @@ function sortear() {
     if (face === "J") {
         cc.innerHTML = `<img src = "/img/valete.png">`
     } else if (face === "Q") {
-        cc.innerHTML = `<img src = "/img/valete.png">`
+        cc.innerHTML = `<img src = "/img/dama.png">`
     } else if (face === "K") {
         cc.innerHTML = `<img src = "/img/rei.png">`
     } else {
