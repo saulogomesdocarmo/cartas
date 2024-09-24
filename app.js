@@ -31,11 +31,11 @@ function sortear() {
     let cc = document.getElementById('centro')
     // inserção de imagem de acordo com o tipo de carta
     if (face === "J") {
-        cc.innerHTML = `<img src = "/img/valete.png">`
+        cc.innerHTML = `<img src = "img/valete.png">`
     } else if (face === "Q") {
-        cc.innerHTML = `<img src = "/img/dama.png">`
+        cc.innerHTML = `<img src = "img/dama.png">`
     } else if (face === "K") {
-        cc.innerHTML = `<img src = "/img/rei.png">`
+        cc.innerHTML = `<img src = "img/rei.png">`
     } else {
         cc.innerHTML = `${nipe}`
         cc.style.color = cor
